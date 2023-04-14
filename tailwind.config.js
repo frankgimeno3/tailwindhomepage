@@ -5,6 +5,11 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx}',
     './src/app/**/*.{js,ts,jsx,tsx}',
   ],
+  styles: {
+    fontFamilies: {
+      poppins: ['Poppins', 'sans-serif']
+    }
+  },
   theme: {
     extend: {
       backgroundImage: {
